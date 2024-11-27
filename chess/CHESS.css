@@ -1,0 +1,32 @@
+* {padding: 0px;
+margin: 0px;
+}
+.chessbord{ 
+    width: 720px;
+    height: 720px;
+    margin: auto;
+    margin-top: 50px;
+    border: 10px solid black;
+}
+
+.white{
+    width: 90px;
+    height: 90px;
+    background-color:rgb(223, 172, 172);
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+.black{
+    width: 90px;
+    height: 90px;
+    background-color:rgb(71, 70, 70);
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+i{
+    padding: auto;
+    padding-top: 16px;
+    margin: auto;
+}
