@@ -1,0 +1,280 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* header strat */
+body {
+    font-family: math;
+}
+
+.header {
+    background-color: rgb(71, 71, 202);
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.h-div1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.home {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    font-size: 40px;
+    color: rgb(210, 206, 206);
+}
+
+/* /* header end * */
+/* section 1 */
+.section1 {
+    margin-top: 20px;
+    color: #000;
+}
+
+.maindiv {
+    background-image: url(./img/masthead-desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.h2 {
+    font-size: 90px;
+    color: whitesmoke;
+}
+
+
+
+
+
+/* section 1 end */
+/* section 2 */
+.section2 {
+    margin-top: 20px;
+    color: #000;
+}
+
+.background {
+    background-image: url(./img/background\ img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+.h3 {
+    font-size: 60px;
+    color: white;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.p {
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+}
+
+.button {
+    font-size: 22px;
+    color: white;
+    background-color: blue;
+    margin: 20px 50px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    color: rgb(223, 215, 215);
+    font-size: 22px;
+    margin: 20px 50px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(17, 17, 21);
+}
+
+/* section 2end */
+/* section 3 */
+.section3 {
+    margin-top: 20px;
+    color: #000;
+}
+
+.sec3main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40PX;
+}
+
+.Already {
+    color: #154662;
+    font-size: 38px;
+    text-align: center;
+}
+
+.sec3-h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #712a33;
+}
+
+
+.sec3img {
+    font-size: 20px;
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    align-items: center
+}
+
+.span {
+    font-size: 20px;
+    color: rgb(87, 87, 212);
+    padding-left: 20px;
+}
+
+.span:hover {
+    font-size: 30px;
+    color: rgb(212, 114, 87);
+}
+
+.sec3-p {
+    font-size: 30px;
+    line-height: 32px;
+    color: black;
+}
+
+.sec3-p:hover {
+    font-size: 30px;
+    line-height: 32px;
+    color: rgb(225, 121, 18);
+}
+
+/* section3 end*/
+/* section 4 */
+.section4 {
+    margin-top: 40px;
+    color: #000;
+}
+
+    .sec4-h2 {
+        text-align: center;
+        font-size: 28px;
+        color: #0e0d0d;
+    }
+
+.latest {
+    color: #0e0d0d;
+    font-size: 48px;
+    text-align: center;
+}
+
+.sec4main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40PX;
+    gap: 50px;
+}
+
+.sec4-p {
+    font-size: 30px;
+    line-height: 32px;
+    color: rgb(10, 10, 11);
+}
+
+.rupee {
+    font-size: 20px;
+    color: rgb(10, 10, 11);
+}
+
+.sec4img {
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+/* section4 end */
+/* fotar */
+.footar {
+    margin-top: 50px;
+    background-color: black;
+}
+
+.footermain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50PX;
+    padding-left: 0px;
+    background-color: rgb(71, 71, 202);
+}
+
+.ul {
+    list-style: none;
+}
+
+.footerdiv1 {
+    font-size: 28px;
+    color: white;
+    margin-top: 100px;
+}
+
+.footerdiv1 h2 {
+    gap: 70px;
+}
+
+.our {
+    font-size: 32px;
+}
+
+.our:hover {
+    font-size: 32px;
+    color: black;
+}
+
+.content {
+    font-size: 48px;
+}
+
+.content:hover {
+    font-size: 48px;
+    color: black;
+}
+
+/* footer end */
